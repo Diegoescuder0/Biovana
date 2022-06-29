@@ -138,6 +138,8 @@
         font-size:xxx-large;
         color: rgb(92, 40, 92);
         padding-left: 10px;
+        position: relative;
+        animation: biovana 5s infinite;
         }
         .main__divnos{
             display: flex;
@@ -378,6 +380,9 @@
             }
             .jabon{ width:30vw;}
         }
-
-
+        @keyframes biovana {
+            from {right: -400px;}
+            to {right: 0px;
+            animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
+            }
 
